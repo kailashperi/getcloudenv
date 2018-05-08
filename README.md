@@ -7,10 +7,9 @@ Rather than setting proxies and finding API endpoints from Doctor, login to a do
 
 ```bash
 docker pull kailashperi/getcloudenv
-
-Once the image is pulled run the script that is in your local environment.
-
-getcloudenv.sh  -- Retreives Dedicated Local Environment Name, API URL and IBM Cloud Console URL
+```
+Once the image is pulled run the following script that can be downloaded from [IBM Cloud odds-and-ends repository](https://github.ibm.com/IBMCloudSupport/odds-and-ends/blob/master/ded-local-cli-access/getcloudenv.sh)
+```getcloudenv.sh  -- Retreives Dedicated Local Environment Name, API URL and IBM Cloud Console URL
 
         Usage: getcloudenv.sh [ -f <filename> |  -k | -v ] -s env [-h] [-d] [-D] [-L]
 
